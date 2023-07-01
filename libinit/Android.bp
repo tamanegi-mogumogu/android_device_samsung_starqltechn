@@ -16,7 +16,7 @@
 //
 
 cc_library_static {
-    name: "init_samsung_starqltechn",
+    name: "libinit_starqltechn",
     recovery_available: true,
     srcs: ["init_samsung_starqltechn.cpp"],
     include_dirs: [
