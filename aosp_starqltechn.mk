@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 lineageK
+# Copyright (C) 2021 AOSP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,12 +22,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from starqltechn device
 $(call inherit-product, device/samsung/starqltechn/device.mk)
 
-# Inherit some common lineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common aospOS stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# PixelExperience Stuff
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_AOSP_RECOVERY := false
 
 # Device identifier
-PRODUCT_NAME := lineage_starqltechn
+PRODUCT_NAME := aosp_starqltechn
 PRODUCT_DEVICE := starqltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G9600
