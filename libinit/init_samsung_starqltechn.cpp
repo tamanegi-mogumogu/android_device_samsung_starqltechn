@@ -57,7 +57,7 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "starqltedcm-user 10 QP1A.190711.020 SC02KOMS1CVK1 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/raven/raven:12/SQ3A.220705.003/8671607:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 
     // privapp permisison control
     property_override("ro.control_privapp_permissions", "log");
