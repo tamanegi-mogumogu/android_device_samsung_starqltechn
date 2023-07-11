@@ -25,14 +25,6 @@ $(call inherit-product, device/samsung/starqltechn/device.mk)
 # Inherit some common aospOS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# PixelExperience Stuff
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_AOSP_RECOVERY := true
-
 # Device identifier
 PRODUCT_NAME := aosp_starqltechn
 PRODUCT_DEVICE := starqltechn
