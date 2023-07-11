@@ -19,5 +19,16 @@
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2960
+TARGET_SCREEN_WIDTH := 1440
+
+# Board
+TARGET_BOARD_PLATFORM := sdm845
+
+# Screen density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
