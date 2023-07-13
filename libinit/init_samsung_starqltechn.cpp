@@ -62,8 +62,8 @@ void vendor_load_properties()
     // privapp permisison control
     property_override("ro.control_privapp_permissions", "log");
 
-    property_override("ro.product.system.model", "SM-G960D");
-    property_override("ro.product.vendor.model", "SM-G960D");
-    property_override("ro.product.product.model", "SM-G960D");
-    property_override("ro.product.odm.model", "SM-G960D");
+    property_override("ro.product.system.model", "SC-02K");
+    property_override("ro.product.vendor.model", "SC-02K");
+    property_override("ro.product.product.model", "SC-02K");
+    property_override("ro.product.odm.model", "SC-02K");
 }
