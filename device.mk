@@ -20,4 +20,4 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 # Inherit from sdm845-common
-$(call inherit-product, device/samsung/sdm845-common/common.mk)
+$(call inherit-product, device/samsung/sdm845-common/sdm845.mk)
