@@ -19,5 +19,8 @@
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# VNDK
+PRODUCT_SHIPPING_API_LEVEL := 29
+
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/sdm845.mk)

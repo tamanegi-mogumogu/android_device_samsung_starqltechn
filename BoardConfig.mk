@@ -20,6 +20,8 @@
 
 DEVICE_PATH := device/samsung/starqltechn
 
+TARGET_USES_VULKAN := true
+
 # SELINUX
 # Assert
 TARGET_OTA_ASSERT_DEVICE := starqltechn

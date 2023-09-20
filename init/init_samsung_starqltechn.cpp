@@ -57,7 +57,7 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "starqltedcm-user 10 QP1A.190711.020 SC02KOMS1CVK1 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/cheetah/cheetah:13/TQ3A.230705.001.A1/10217028:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/cheetah/cheetah:13/TQ3A.230901.001.C2/10753682:user/release-keys");
 
     // privapp permisison control
     property_override("ro.control_privapp_permissions", "log");
