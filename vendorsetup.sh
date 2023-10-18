@@ -13,7 +13,7 @@ git clone https://github.com/tamanegi-mogumogu/android_device_samsung_sdm845-com
 
 echo 'Cloning Device Tree [3/7]'
 # Device tree for starqltechn
-rm -rf device/samsung/beyond2lte
+rm -rf device/samsung/starqltechn
 git clone https://github.com/tamanegi-mogumogu/android_device_samsung_starqltechn -b elixir device/samsung/starqltechn
 
 echo 'Cloning Vendor Trees [4/7]'
