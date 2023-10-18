@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'Starting Cloning repos for beyond2lte'
+echo 'Starting Cloning repos for starqltechn'
 echo 'Cloning Kernel tree [1/7]'
 # Kernel for sdm845
 rm -rf kernel/samsung/sdm845
@@ -12,7 +12,7 @@ rm -rf device/samsung/sdm845-common
 git clone https://github.com/tamanegi-mogumogu/android_device_samsung_sdm845-common_1 -b elixir device/samsung/sdm845-common
 
 echo 'Cloning Device Tree [3/7]'
-# Device tree for starqlte
+# Device tree for starqltechn
 rm -rf device/samsung/beyond2lte
 git clone https://github.com/tamanegi-mogumogu/android_device_samsung_starqltechn -b elixir device/samsung/starqltechn
 
