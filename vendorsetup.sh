@@ -9,12 +9,12 @@ git clone https://github.com/tamanegi-mogumogu/android_kernel_samsung_sdm845 -b 
 echo 'Cloning Common Tree [2/7]'
 # Common tree for sdm845-common
 rm -rf device/samsung/sdm845-common
-git clone https://github.com/tamanegi-mogumogu/android_device_samsung_sdm845-common_1 -b elixir device/samsung/sdm845-common
+git clone https://github.com/tamanegi-mogumogu/android_device_samsung_sdm845-common_1 -b elixir-14 device/samsung/sdm845-common
 
 echo 'Cloning Device Tree [3/7]'
 # Device tree for starqltechn
 rm -rf device/samsung/starqltechn
-git clone https://github.com/tamanegi-mogumogu/android_device_samsung_starqltechn -b elixir device/samsung/starqltechn
+git clone https://github.com/tamanegi-mogumogu/android_device_samsung_starqltechn -b elixir-14 device/samsung/starqltechn
 
 echo 'Cloning Vendor Trees [4/7]'
 rm -rf vendor/samsung/sdm845-common
