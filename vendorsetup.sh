@@ -39,3 +39,6 @@ git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy devi
 
 rm -rf packages/apps/Nfc
 git clone https://github.com/Evolution-X/packages_apps_Nfc -b udc packages/apps/Nfc
+
+rm -rf packages/modules/bluetooth
+git clone https://github.com/TrebleDroid/platform_packages_modules_bluetooth -b android-14.0.0_r2-td packages/modules/bluetooth
