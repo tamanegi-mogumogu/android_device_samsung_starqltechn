@@ -29,6 +29,12 @@ TARGET_OTA_ASSERT_DEVICE := starqltechn
 # Kernel
 TARGET_KERNEL_CONFIG := starqlte_chn_open_defconfig
 
+# Build Flags
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_DUP_SYSPROP := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_starqltechn
 TARGET_RECOVERY_DEVICE_MODULES := libinit_starqltechn
