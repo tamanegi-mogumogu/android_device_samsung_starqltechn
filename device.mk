@@ -22,5 +22,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 # VNDK
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# GCamGo
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V3_8
+
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
