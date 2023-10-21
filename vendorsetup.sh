@@ -39,3 +39,6 @@ git clone https://github.com/Evolution-X/packages_apps_Nfc -b udc packages/apps/
 
 rm -rf packages/modules/Bluetooth
 git clone https://github.com/TrebleDroid/platform_packages_modules_bluetooth -b android-14.0.0_r2-td packages/modules/Bluetooth
+
+rm -rf packages/apps/GCamGOPrebuilt
+git clone https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-13.1 packages/apps/GCamGOPrebuilt
