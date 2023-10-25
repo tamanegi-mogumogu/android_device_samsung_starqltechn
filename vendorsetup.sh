@@ -42,3 +42,9 @@ git clone https://github.com/TrebleDroid/platform_packages_modules_bluetooth -b 
 
 rm -rf packages/apps/GCamGOPrebuilt
 git clone https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-13.1 packages/apps/GCamGOPrebuilt
+
+rm -rf frameworks/av
+git clone https://github.com/Evolution-X/frameworks_av -b udc frameworks/av
+
+rm -rf frameworks/base
+git clone https://github.com/Project-Elixir/frameworks_base -b UNO frameworks/base
