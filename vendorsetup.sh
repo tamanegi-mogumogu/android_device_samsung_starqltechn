@@ -14,7 +14,7 @@ git clone https://github.com/tamanegi-mogumogu/android_device_samsung_sdm845-com
 echo 'Cloning Device Tree [3/7]'
 # Device tree for starqltechn
 rm -rf device/samsung/starqltechn
-git clone https://github.com/tamanegi-mogumogu/android_device_samsung_starqltechn -b elixir-14 device/samsung/starqltechn
+git clone https://github.com/tamanegi-mogumogu/android_device_samsung_starqltechn -b elixir-14-wip device/samsung/starqltechn
 
 echo 'Cloning Vendor Trees [4/7]'
 rm -rf vendor/samsung/sdm845-common
@@ -34,17 +34,10 @@ echo 'Cloning Sepolicy Dependency repo [7/7]'
 rm -rf device/aosp/sepolicy
 git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy device/aosp/sepolicy
 
-rm -rf packages/apps/Nfc
-git clone https://github.com/Evolution-X/packages_apps_Nfc -b udc packages/apps/Nfc
-
 rm -rf packages/modules/Bluetooth
 git clone https://github.com/TrebleDroid/platform_packages_modules_bluetooth -b android-14.0.0_r2-td packages/modules/Bluetooth
 
 rm -rf packages/apps/GCamGOPrebuilt
 git clone https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-13.1 packages/apps/GCamGOPrebuilt
 
-rm -rf frameworks/av
-git clone https://github.com/Evolution-X/frameworks_av -b udc frameworks/av
-
-rm -rf frameworks/base
-git clone https://github.com/Project-Elixir/frameworks_base -b UNO frameworks/base
+rm -rf packages/apps/Aperture
