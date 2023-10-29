@@ -25,8 +25,6 @@ $(call inherit-product, device/samsung/starqltechn/device.mk)
 # Inherit some common aospOS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-## S Pen
-TARGET_HAVE_SPEN := true
 
 # Project-Elixir
 IS_PHONE := true
