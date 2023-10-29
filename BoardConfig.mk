@@ -24,20 +24,11 @@ DEVICE_PATH := device/samsung/starqltechn
 TARGET_USES_VULKAN := true
 USE_OPENGL_RENDERER := true
 
-# SELINUX
 # Assert
 TARGET_OTA_ASSERT_DEVICE := starqltechn
 
 # Kernel
 TARGET_KERNEL_CONFIG := starqlte_chn_open_defconfig
-
-# Build Flags
-BUILD_BROKEN_DUP_RULES := true
-BUILD_BROKEN_DUP_SYSPROP := true
-BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
-SKIP_ABI_CHECKS := true
-
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
