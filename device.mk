@@ -22,6 +22,13 @@ DEVICE_PACKAGE_OVERLAYS += \
 # VNDK
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # GCamGo
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V3_8
