@@ -38,7 +38,7 @@ rm -rf device/aosp/sepolicy
 git clone https://github.com/crdroidandroid/android_device_crdroid_sepolicy -b 14.0 device/aosp/sepolicy
 
 rm -rf packages/apps/Nfc
-git clone https://github.com/Evolution-X/android_packages_apps_Nfc.git packages/apps/Nfc
+git clone https://github.com/Evolution-X/packages_apps_Nfc.git packages/apps/Nfc
 
 #rm -rf packages/modules/Bluetooth
 #git clone https://github.com/TrebleDroid/platform_packages_modules_bluetooth -b android-14.0.0_r2-td packages/modules/Bluetooth
