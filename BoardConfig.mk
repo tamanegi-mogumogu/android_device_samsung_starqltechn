@@ -17,6 +17,8 @@
 
 # Inherit from sdm845-common
 -include device/samsung/sdm845-common/BoardConfigCommon.mk
+# inherit from the proprietary version
+-include vendor/samsung/starqltechn/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/starqltechn
 

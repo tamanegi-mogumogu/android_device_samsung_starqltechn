@@ -24,3 +24,5 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
+# Inherit from samsung starqltechn
+$(call inherit-product, vendor/samsung/starqltechn/starqltechn-vendor.mk)
