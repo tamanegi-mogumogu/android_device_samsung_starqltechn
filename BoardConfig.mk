@@ -22,16 +22,15 @@
 
 DEVICE_PATH := device/samsung/starqltechn
 
+# Render
 TARGET_USES_VULKAN := true
+USE_OPENGL_RENDERER := true
 
-# SELINUX
 # Assert
 TARGET_OTA_ASSERT_DEVICE := starqltechn
 
 # Kernel
 TARGET_KERNEL_CONFIG := starqlte_chn_open_defconfig
 
-# Vendor init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_starqltechn
-TARGET_RECOVERY_DEVICE_MODULES := libinit_starqltechn
-BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+## Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
