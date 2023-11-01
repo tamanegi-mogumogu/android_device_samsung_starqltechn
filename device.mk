@@ -17,21 +17,10 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-elixir
+    $(LOCAL_PATH)/overlay
+
 # VNDK
 PRODUCT_SHIPPING_API_LEVEL := 29
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
-
-# GCamGo
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3_8
 
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/common.mk)

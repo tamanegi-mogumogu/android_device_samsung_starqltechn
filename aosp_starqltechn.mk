@@ -25,16 +25,14 @@ $(call inherit-product, device/samsung/starqltechn/device.mk)
 # Inherit some common aospOS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-
-# Project-Elixir
-IS_PHONE := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ACORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-ELIXIR_BUILD_TYPE := UNOFFICIAL
+# PixelExperience Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier
 PRODUCT_NAME := aosp_starqltechn
@@ -43,13 +41,3 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SC-02K
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-PRODUCT_SYSTEM_NAME := GalaxyS9
-PRODUCT_SYSTEM_DEVICE := GalaxyS9
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=GalaxyS9 \
-    TARGET_PRODUCT=GalaxyS9 \
-    PRIVATE_BUILD_DESC="starqltedcm-user 10 QP1A.190711.020 SC02KOMS1CVK1 release-keys"
-
-BUILD_FINGERPRINT := samsung/SC-02K/SC-02K:10/QP1A.190711.020/SC02KOMS1CVK1:user/release-keys

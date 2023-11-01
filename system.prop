@@ -1,5 +1,0 @@
-# Camera
-persist.vendor.camera.perfcapture=1
-
-# Recovery
-ro.recovery.ui.margin_height=87
