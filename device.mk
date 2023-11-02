@@ -17,8 +17,8 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-elixir
+    $(LOCAL_PATH)/overlay
+
 # VNDK
 PRODUCT_SHIPPING_API_LEVEL := 29
 

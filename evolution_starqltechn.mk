@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 AOSP
+# Copyright (C) 2023 EvolutionX
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,22 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from starqltechn device
 $(call inherit-product, device/samsung/starqltechn/device.mk)
 
-# Inherit some common aospOS stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common EvolutionX stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-
-# Project-Elixir
-IS_PHONE := true
+# Evo
+EVO_BUILD_TYPE := UNOFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-ELIXIR_BUILD_TYPE := UNOFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := aosp_starqltechn
+PRODUCT_NAME := Evolution_starqltechn
 PRODUCT_DEVICE := starqltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SC-02K

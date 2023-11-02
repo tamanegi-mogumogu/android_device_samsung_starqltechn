@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2021 aosp
+# Copyright (C) 2021 EvolutionX
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_starqltechn.mk
+    $(LOCAL_DIR)/evolution_starqltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	aosp_starqltechn-user \
-	aosp_starqltechn-userdebug \
-	aosp_starqltechn-eng
+	evolution_starqltechn-user \
+	evolution_starqltechn-userdebug \
+	evolution_starqltechn-eng
