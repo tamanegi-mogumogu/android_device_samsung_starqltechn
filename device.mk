@@ -33,6 +33,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V3_8
 
+PRODUCT_PACKAGES += \
+    libgui_vendor
+
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
 
