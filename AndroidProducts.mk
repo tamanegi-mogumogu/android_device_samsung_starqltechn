@@ -15,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_starqltechn.mk
+    $(LOCAL_DIR)/blaze_starqltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	evolution_starqltechn-user \
-	evolution_starqltechn-userdebug \
-	evolution_starqltechn-eng
+	blaze_starqltechn-user \
+	blaze_starqltechn-userdebug \
+	blaze_starqltechn-eng

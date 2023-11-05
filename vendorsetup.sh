@@ -44,9 +44,6 @@ echo 'Cloning Sepolicy Dependency repo [6/7]'
 rm -rf packages/apps/GCamGOPrebuilt
 git clone https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-13.1 packages/apps/GCamGOPrebuilt
 
-rm -rf vendor/bcr
-git clone https://github.com/Evolution-X/vendor_bcr -b udc vendor/bcr
-
 echo 'Cloning Dolby atoms repo [7/7]'
 
 rm -rf vendor/dolby
