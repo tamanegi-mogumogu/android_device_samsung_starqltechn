@@ -20,7 +20,9 @@
 
 DEVICE_PATH := device/samsung/starqltechn
 
+# Renderer
 TARGET_USES_VULKAN := true
+USE_OPENGL_RENDERER := true
 
 # SELINUX
 # Assert
