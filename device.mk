@@ -24,3 +24,6 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
+
+# Sony Dolby
+$(call inherit-product, vendor/dolby/config.mk)
