@@ -29,5 +29,8 @@ PRODUCT_COPY_FILES += \
 # Inherit from sdm845-common
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
 
+# Inherit from samsung starqltechn
+$(call inherit-product, vendor/samsung/starqltechn/starqltechn-vendor.mk)
+
 # Sony Dolby
 $(call inherit-product, vendor/dolby/config.mk)
