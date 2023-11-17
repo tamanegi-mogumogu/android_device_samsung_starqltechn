@@ -20,14 +20,14 @@ echo 'Cloning Vendor Trees [4/8]'
 rm -rf vendor/samsung/sdm845-common
 git clone https://github.com/tamanegi-mogumogu/android_vendor_samsung_sdm845-common -b thirteen-backup vendor/samsung/sdm845-common
 
-# rm -rf vendor/samsung/starqltechn
-# git clone https://github.com/tamanegi-mogumogu/vendor_samsung_starqltechn vendor/samsung/starqltechn
+rm -rf vendor/samsung/starqltechn
+git clone https://github.com/tamanegi-mogumogu/vendor_samsung_starqltechn vendor/samsung/starqltechn
 
 echo 'Cloning Hardware Samsung [5/8]'
 # Hardware OSS parts for Samsung
 mv hardware/samsung/nfc .
 rm -rf hardware/samsung
-https://github.com/bananadroid/android_hardware_samsung -b 14 hardware/samsung
+git clone https://github.com/bananadroid/android_hardware_samsung -b 14 hardware/samsung
 mv nfc hardware/samsung
 
 echo 'Cloning Samsung_Slsi and Linaro BSP repos [6/8]'
