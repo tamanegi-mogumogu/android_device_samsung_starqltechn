@@ -66,4 +66,5 @@ void vendor_load_properties()
     property_override("ro.product.vendor.model", "SC-02K");
     property_override("ro.product.product.model", "SC-02K");
     property_override("ro.product.odm.model", "SC-02K");
+    property_override("ro.product.first_api_level", "29");
 }
