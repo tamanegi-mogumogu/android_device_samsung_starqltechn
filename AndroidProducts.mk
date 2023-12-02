@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_starqltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	aosp_starqltechn-user \
-	aosp_starqltechn-userdebug \
-	aosp_starqltechn-eng
+	cherish_starqltechn-user \
+	cherish_starqltechn-userdebug \
+	cherish_starqltechn-eng

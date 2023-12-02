@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/starqltechn/device.mk)
 
 # Inherit some common aospOS stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # PixelExperience Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -35,7 +35,7 @@ TARGET_USES_AOSP_RECOVERY := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier
-PRODUCT_NAME := aosp_starqltechn
+PRODUCT_NAME := cherish_starqltechn
 PRODUCT_DEVICE := starqltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SC-02K
