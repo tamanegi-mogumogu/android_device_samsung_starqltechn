@@ -25,7 +25,7 @@ $(call inherit-product, device/samsung/starqltechn/device.mk)
 # Inherit some common aospOS stuff
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
-# PixelExperience Stuff
+# Cherish OS Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -34,6 +34,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 CHERISH_BUILD_TYPE := UNOFFICIAL
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier
 PRODUCT_NAME := cherish_starqltechn
