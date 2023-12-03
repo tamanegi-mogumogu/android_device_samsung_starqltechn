@@ -42,3 +42,7 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SC-02K
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Maintainer Stuff
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=tqmane
