@@ -15,7 +15,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_starqltechn.mk
+    $(LOCAL_DIR)/cherish_starqltechn.mk
 
 COMMON_LUNCH_CHOICES := \
 	cherish_starqltechn-user \
