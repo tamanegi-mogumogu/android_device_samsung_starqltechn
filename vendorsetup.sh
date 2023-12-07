@@ -20,7 +20,7 @@ git clone https://github.com/tamanegi-mogumogu/android_device_samsung_starqltech
 
 echo 'Cloning Vendor Trees [4/6]'
 rm -rf vendor/samsung/sdm845-common
-git clone https://github.com/tamanegi-mogumogu/android_vendor_samsung_sdm845-common -b thirteen vendor/samsung/sdm845-common
+git clone https://github.com/tamanegi-mogumogu/android_vendor_samsung_sdm845-common -b fourteen vendor/samsung/sdm845-common
 
 rm -rf vendor/samsung/starqltechn
 git clone https://github.com/tamanegi-mogumogu/vendor_samsung_starqltechn vendor/samsung/starqltechn
