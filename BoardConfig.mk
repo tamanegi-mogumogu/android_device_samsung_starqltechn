@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2018-2021 The LineageOS Project
-# Copyright (C) 2021 lineageK
+# Copyright (C) 2018-2023 The LineageOS Project
+# Copyright (C) 2023 lineageK
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
