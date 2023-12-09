@@ -31,7 +31,3 @@ mv hardware/samsung/nfc .
 rm -rf hardware/samsung
 git clone https://github.com/bananadroid/android_hardware_samsung -b 14 hardware/samsung
 mv nfc hardware/samsung
-
-echo 'Cloning Dolby atoms repo [6/6]'
-rm -rf vendor/dolby
-git clone https://github.com/pure-soul-kk/sony_vendor_dolby -b udc vendor/dolby
