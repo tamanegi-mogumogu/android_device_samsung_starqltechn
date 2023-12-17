@@ -4,8 +4,7 @@ echo 'Starting Cloning repos for starqltechn'
 echo 'Cloning Kernel tree [1/6]'
 # Kernel for sdm845
 if [ ! -d "kernel/samsung/sdm845" ]; then
-    rm -rf kernel/samsung/sdm845
-    git clone https://github.com/tamanegi-mogumogu/android_kernel_samsung_sdm845 -b lineage-20.0_test kernel/samsung/sdm845
+    git clone https://github.com/tamanegi-mogumogu/android_kernel_samsung_sdm845 -b fourteen kernel/samsung/sdm845
 fi
 
 echo 'Cloning Common Tree [2/6]'
@@ -23,7 +22,7 @@ rm -rf vendor/samsung/sdm845-common
 git clone https://github.com/tamanegi-mogumogu/android_vendor_samsung_sdm845-common -b fourteen vendor/samsung/sdm845-common
 
 rm -rf vendor/samsung/starqltechn
-git clone https://github.com/tqmane/vendor_samsung_starqltechn vendor/samsung/starqltechn
+git clone https://github.com/tqmane/vendor_samsung_starqltechn -b fourteen vendor/samsung/starqltechn
 
 echo 'Cloning Hardware Samsung [5/6]'
 # Hardware OSS parts for Samsung
