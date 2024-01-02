@@ -5,7 +5,7 @@ echo 'Cloning Kernel tree [1/6]'
 # Kernel for sdm845
 if [ ! -d "kernel/samsung/sdm845" ]; then
     rm -rf kernel/samsung/sdm845
-    git clone https://github.com/tamanegi-mogumogu/android_kernel_samsung_sdm845 -b lineage-20.0_test kernel/samsung/sdm845
+    git clone https://github.com/tamanegi-mogumogu/android_kernel_samsung_sdm845 -b fourteen kernel/samsung/sdm845
 fi
 
 echo 'Cloning Common Tree [2/6]'
