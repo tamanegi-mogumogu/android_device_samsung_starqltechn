@@ -55,7 +55,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno630
 QCOM_BOARD_PLATFORMS += sdm845
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/starqltechn/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/samsung/starqltedcm/prebuilt/Image.gz-dtb
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 
@@ -72,7 +72,7 @@ BOARD_KERNEL_TAGS_OFFSET := 0x01e00000
 BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET) --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION) --pagesize $(BOARD_KERNEL_PAGESIZE) --board "SRPQH02B009"
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/starqltechn/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/starqltedcm/bootimg.mk
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true

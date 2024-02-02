@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter starqltechn, $(TARGET_DEVICE)),)
+ifneq ($(filter starqltechn, starqltedcm, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

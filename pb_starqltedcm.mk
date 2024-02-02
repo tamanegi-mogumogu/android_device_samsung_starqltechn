@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := starqltechn
+PRODUCT_RELEASE_NAME := starqltedcm
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -25,17 +25,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/starqltechn/device.mk)
+$(call inherit-product, device/samsung/starqltedcm/device.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/starqltechn/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/starqltedcm/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := pb_starqltechn
-PRODUCT_DEVICE := starqltechn
+PRODUCT_NAME := pb_starqltedcm
+PRODUCT_DEVICE := starqltedcm
 PRODUCT_MODEL := SC-02K
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

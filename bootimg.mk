@@ -1,4 +1,4 @@
-MKBOOTIMG := device/samsung/starqltechn/mkbootimg
+MKBOOTIMG := device/samsung/starqltedcm/mkbootimg
 
 FLASH_IMAGE_TARGET ?= $(PRODUCT_OUT)/recovery.tar
 
